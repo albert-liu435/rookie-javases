@@ -8,21 +8,18 @@
     <artifactId>rookie-javases</artifactId>
     <version>1.0.0</version>
     <modules>
-<!--        <module>rookie-javase-thread</module>
-        <module>rookie-javase-jvm</module>
-        <module>rookie-javase-design</module>
-        <module>rookie-javase-other</module>
-        <module>rookie-leetcode-java</module>-->
         <module>rookie-javase</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
+    <dependencies>
 
+    </dependencies>
 
 
 </project>

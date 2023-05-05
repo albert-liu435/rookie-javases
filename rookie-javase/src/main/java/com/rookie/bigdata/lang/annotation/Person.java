@@ -15,7 +15,7 @@ public class Person {
         System.out.println("boy name is "+ name);
     }
 
-    @MyAnnotation(value = "zhangsan")
+    @MyAnnotation(value ={"zhangsan","lisi"} )
     public void girl(String name){
 
         System.out.println("girl name is " +name);

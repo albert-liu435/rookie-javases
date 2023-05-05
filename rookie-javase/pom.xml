@@ -4,15 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!--    <parent>-->
+    <!--        <artifactId>rookie-javases</artifactId>-->
+    <!--        <groupId>com.rookie.bigdata</groupId>-->
+    <!--        <version>1.0.0</version>-->
+    <!--    </parent>-->
+
+
     <parent>
-        <artifactId>rookie-javases</artifactId>
         <groupId>com.rookie.bigdata</groupId>
+        <artifactId>rookie-javases</artifactId>
         <version>1.0.0</version>
     </parent>
-
     <artifactId>rookie-javase</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <version>1.0</version>
+    <packaging>jar</packaging>
 
     <name>rookie-javase Maven Webapp</name>
     <!-- FIXME change it to the project's website -->
@@ -20,24 +26,32 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
 <!--        <dependency>-->
 <!--            <groupId>junit</groupId>-->
 <!--            <artifactId>junit</artifactId>-->
-<!--            <version>4.11</version>-->
-<!--            &lt;!&ndash;    <scope>test</scope>&ndash;&gt;-->
+<!--            <version>4.13.2</version>-->
+<!--&lt;!&ndash;            <scope>test</scope>&ndash;&gt;-->
 <!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.junit.jupiter</groupId>-->
+<!--            <artifactId>junit-jupiter</artifactId>-->
+<!--            <version>RELEASE</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
+
 
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.9.2</version>
-            <scope>test</scope>
+            <!--            <scope>test</scope>-->
         </dependency>
 
 
